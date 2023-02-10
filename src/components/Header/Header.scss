@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
+
+header {
+    padding: 4rem 0rem 5rem 0rem !important;
+    position: sticky;
+    @include breakpoint(xl) {
+        padding: 2rem 0rem 3rem 0rem !important;
+    }
+    &.is-sticky {
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+        background-color: #ffffff !important;
+        animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        transition: 0.3s all;
+        padding: 1rem 0rem !important;
+    }
+    img {
+        max-width: 13rem !important;
+        @include breakpoint(xl) {
+            max-width: 10rem !important;
+        }
+        @include breakpoint(lg) {
+            max-width: 8rem !important;
+        }
+    }
+    h1{
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        font-family: $Ambroise;
+        font-weight: 900;
+        color: var(--text-color);
+        font-style: italic;
+        @include breakpoint(lg){
+            font-size: 1.3rem;
+            text-align: right;
+        }
+        @include breakpoint(sm){
+            font-size: 0.9rem;
+            text-align: right;
+        }
+    }
+}

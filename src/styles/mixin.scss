@@ -1,0 +1,19 @@
+@mixin ul {
+    .list {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin: 2rem 0 3.5rem 0rem;
+        ul {
+            text-align: left;
+            max-width: 17rem;
+            li {
+                list-style-type: disc !important;
+                color: var(--text-color);
+                font-weight: 300;
+                font-size: 1rem;
+            }
+        }
+    }
+}

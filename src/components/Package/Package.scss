@@ -1,0 +1,118 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
+
+.package {
+    position: relative;
+    padding: 3rem 0rem;
+    @include breakpoint(md){
+        padding: 0rem 2rem;
+    }
+    &::after {
+        content: "";
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        background: url(../../../public/image/shape6.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top right;
+        top: -5rem;
+        right: 0;
+        z-index: -1;
+        @include breakpoint(xl) {
+            top: -2rem;
+        }
+    }
+    &::before {
+        content: "";
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        background: url(../../../public/image/shape7.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom left;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+    .col-lg-3 {
+        position: relative;
+        z-index: 99;
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+        &::after {
+            content: "";
+            height: 80%;
+            width: 100%;
+            position: absolute;
+            background: url(../../../public/image/shape5.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            top: 0;
+            z-index: -1;
+            @include breakpoint(md) {
+                display: none;
+            }
+        }
+       /*  @include breakpoint(md) {
+            justify-content: flex-start !important;
+        } */
+    }
+    h2 {
+        text-align: center;
+        font-size: 3.2rem;
+        font-family: $FreeCoastine;
+        margin-bottom: 3rem;
+        background: -webkit-linear-gradient(
+            #c9a358,
+            #b9944d,
+            #aa8542,
+            #936e32,
+            #876024,
+            #916726,
+            #a67529,
+            #a67529,
+            #ca9a45
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @include breakpoint(md){
+            font-size: 2.5rem;
+        }
+     
+    }
+
+    .box {
+        h3 {
+            font-family: $FreeCoastine;
+            font-size: 3.5rem;
+            color: var(--text-color);
+            span {
+                font-size: 4rem;
+                @include breakpoint(xl) {
+                    font-size: 3rem;
+                }
+                
+            }
+            @include breakpoint(xl) {
+                font-size: 2.6rem;
+            }
+        }
+        h5 {
+            color: var(--text-color);
+            font-size: 1.6rem;
+            font-weight: 300;
+            @include breakpoint(xl) {
+                font-size: 1.3rem;
+            }
+        }
+        .list {
+            margin-top: 0rem !important;
+        }
+    }
+}

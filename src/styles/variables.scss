@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-Italic.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-ExtraBoldItalic.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-Medium.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-ExtraBold.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-Regular.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../../public/fonts/AlegreyaSC-BoldItalic.woff2") format("woff2"),
+        url("../../public/fonts/AlegreyaSC-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-BoldItalic.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-MediumItalic.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-BlackItalic.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../../public/fonts/AlegreyaSC-Black.woff2") format("woff2"),
+        url("../../public/fonts/AlegreyaSC-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-Black.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../../public/fonts/AlegreyaSC-Italic.woff2") format("woff2"),
+        url("../../public/fonts/AlegreyaSC-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../../public/fonts/AlegreyaSC-Regular.woff2") format("woff2"),
+        url("../../public/fonts/AlegreyaSC-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-Regular.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../../public/fonts/AlegreyaSC-Bold.woff2") format("woff2"),
+        url("../../public/fonts/AlegreyaSC-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya SC";
+    src: url("../../public/fonts/AlegreyaSC-BlackItalic.woff2") format("woff2"),
+        url("../../public/fonts/AlegreyaSC-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../../public/fonts/Alegreya-Bold.woff2") format("woff2"),
+        url("../../public/fonts/Alegreya-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Free Coastine";
+    src: url("../../public/fonts/FreeCoastine-Regular.woff2") format("woff2"),
+        url("../../public/fonts/FreeCoastine-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../../public/fonts/Baskerville-BoldItalic.woff2') format('woff2'),
+        url('../../public/fonts/Baskerville-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../../public/fonts/Baskerville-SemiBold.woff2') format('woff2'),
+        url('../../public/fonts/Baskerville-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../../public/fonts/Baskerville-Italic.woff2') format('woff2'),
+        url('../../public/fonts/Baskerville-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../../public/fonts/Baskerville-SemiBoldItalic.woff2') format('woff2'),
+        url('../../public/fonts/Baskerville-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../../public/fonts/Baskerville-Bold.woff2') format('woff2'),
+        url('../../public/fonts/Baskerville-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../../public/fonts/Baskerville.woff2') format('woff2'),
+        url('../../public/fonts/Baskerville.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Regular.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-MediumItalic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Thin.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-DemiboldItalic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-DemiboldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Demibold.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Demibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Bold.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-BoldItalic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-ThinItalic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-LightItalic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-ExtraboldItalic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-ExtraboldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Italic.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Light.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Extrabold.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Extrabold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arsenica Trial";
+    src: url("../../public/fonts/ArsenicaTrial-Medium.woff2") format("woff2"),
+        url("../../public/fonts/ArsenicaTrial-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dream Orphans";
+    src: url("../../public/fonts/DreamOrphans-Regular.woff2") format("woff2"),
+        url("../../public/fonts/DreamOrphans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Ambroise";
+    src: url("../../public/fonts/Ambroise-Bold.woff2") format("woff2"),
+        url("../../public/fonts/Ambroise-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+$Alegreya: "Alegreya", sans-serif;
+$AlegreyaSC: "Alegreya SC", sans-serif;
+$FreeCoastine: "Free Coastine", sans-serif;
+$ArsenicaTrial: "Arsenica Trial", sans-serif;
+$DreamOrphans: "Dream Orphans", sans-serif;
+$Ambroise: "Ambroise", sans-serif;
+$Baskerville: "Baskerville", sans-serif;
+
+:root {
+    --text-color: #646464;
+    --bg-color: #fdf8f0;
+}
+
+//responsive breakpoints
+@mixin breakpoint($size) {
+    @if $size == sm {
+        @media (max-width: 600px) {
+            @content;
+        }
+    } @else if $size == md {
+        @media (max-width: 768px) {
+            @content;
+        }
+    } @else if $size == lg {
+        @media (max-width: 991px) {
+            @content;
+        }
+    } @else if $size == xl {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    } @else if $size == xxl {
+        @media (max-width: 1400px) {
+            @content;
+        }
+    }
+}

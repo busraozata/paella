@@ -1,0 +1,353 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
+
+.services {
+    padding: 2rem 0rem;
+    position: relative;
+    z-index: 9;
+    min-height: 100vh;
+    overflow: hidden;
+    &::before {
+        content: "";
+        background-image: url(../../../public/image/shape3.png);
+        position: absolute;
+        background-position: left;
+        background-size: contain;
+        width: 100%;
+        z-index: -1;
+        height: 60rem;
+        background-repeat: no-repeat;
+        top: -10rem;
+        @include breakpoint(xl) {
+            height: 35rem;
+            top: -5rem;
+        }
+    }
+    h2 {
+        color: var(--text-color);
+        font-family: $ArsenicaTrial;
+        font-size: 5.7281rem !important;
+        margin-bottom: 4rem;
+        text-align: center;
+        font-weight: 400;
+        span {
+            font-weight: 600;
+        }
+        @include breakpoint(xl) {
+            font-size: 4rem !important;
+            margin-bottom: 1rem;
+        }
+        @include breakpoint(sm) {
+            font-size: 2.5rem !important;
+        }
+        strong {
+            letter-spacing: 0.1rem !important;
+            font-weight: 600;
+        }
+    }
+    .full-area {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        .area {
+            margin-right: 1rem;
+            @include breakpoint(sm) {
+                margin-right: 0.5rem;
+            }
+            .title-area {
+                font-weight: 400;
+            }
+            &:first-child {
+                .title-area {
+                    font-weight: 600 !important;
+                }
+            }
+            &:nth-child(2) {
+                .title-area {
+                    font-weight: 600;
+                }
+            }
+            &:nth-child(3) {
+                .title-area {
+                    font-weight: 600;
+                }
+            }
+            &:nth-child(4) {
+                .title-area {
+                    font-weight: 600;
+                }
+            }
+            &:nth-child(5) {
+                .title-area {
+                    font-weight: 600;
+                }
+            }
+            &:last-child {
+                .title-area {
+                    font-weight: 400 !important;
+                }
+            }
+        }
+    }
+
+    .serviceList {
+        .serviceItem {
+            text-align: center;
+            position: relative;
+            padding: 5rem 0rem;
+            &:nth-child(2) {
+                &::before {
+                    content: "";
+                    background-image: url(../../../public/image/shape8.png);
+                    position: absolute;
+                    background-position: right;
+                    background-size: contain;
+                    width: 100%;
+                    z-index: -1;
+                    height: 60rem;
+                    background-repeat: no-repeat;
+                    bottom: -12rem;
+                    right: -20rem;
+                    @media screen and (min-width: 2000px) {
+                        right: -42rem;
+                    }
+                    @media screen and (max-width: 1440px) {
+                        right: -5rem;
+                        height: 35rem;
+                        bottom: -5rem;
+                    }
+                }
+                ul {
+                    @include breakpoint(sm) {
+                        padding-left: 1rem !important;
+                    }
+                }
+            }
+            &:nth-child(3) {
+                &::before {
+                    content: "";
+                    background-image: url(../../../public/image/shape9.png);
+                    position: absolute;
+                    background-position: left;
+                    background-size: contain;
+                    width: 100%;
+                    z-index: -1;
+                    height: 60rem;
+                    background-repeat: no-repeat;
+                    bottom: -12rem;
+                    left: -20rem;
+                    @media screen and (min-width: 2000px) {
+                        left: -42rem;
+                    }
+                    @media screen and (max-width: 1440px) {
+                        left: -5rem;
+                        height: 35rem;
+                        bottom: -5rem;
+                    }
+                }
+            }
+            &:nth-child(6) {
+                &::before {
+                    content: "";
+                    background-image: url(../../../public/image/shape10.png);
+                    position: absolute;
+                    background-position: left;
+                    background-size: contain;
+                    width: 100%;
+                    z-index: -1;
+                    height: 60rem;
+                    background-repeat: no-repeat;
+                    bottom: -12rem;
+                    left: -20rem;
+                    @media screen and (min-width: 2000px) {
+                        left: -42rem;
+                    }
+                    @media screen and (max-width: 1440px) {
+                        left: -5rem;
+                        height: 35rem;
+                        bottom: -5rem;
+                    }
+                }
+                .serviceContent {
+                    h4 {
+                        max-width: 32rem !important;
+                        @include breakpoint(xl) {
+                            max-width: 26rem !important;
+                        }
+                        @include breakpoint(sm) {
+                            max-width: 20rem !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(7) {
+                .serviceContent {
+                    h4 {
+                        max-width: 34rem !important;
+                        @include breakpoint(xl) {
+                            max-width: 26rem !important;
+                        }
+                        @include breakpoint(sm) {
+                            max-width: 20rem !important;
+                        }
+                    }
+                }
+            }
+
+            &:nth-child(2n + 0) .row {
+                flex-direction: row-reverse;
+            }
+            @include breakpoint(lg) {
+                &:first-child {
+                    padding: 2rem 0rem;
+                }
+                &:last-child {
+                    padding: 2rem 0rem;
+                }
+                padding: 6rem 0rem;
+            }
+            .info {
+                font-size: 0.8rem;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 3rem;
+                font-weight: 500;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background-image: url(../../../public/image/shape2.png);
+                    height: 100%;
+                    width: 70%;
+                    background-repeat: no-repeat;
+                    bottom: -1.8rem;
+                    background-position: center;
+                    background-size: contain;
+                    z-index: -1;
+                }
+            }
+            &:last-child {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background-image: url(../../../public/image/shape2.png);
+                    height: 5%;
+                    width: 30%;
+                    background-repeat: no-repeat;
+                    bottom: 0rem;
+                    background-position: center;
+                    background-size: contain;
+                    z-index: -1;
+                    @include breakpoint(sm) {
+                        width: 70%;
+                    }
+                }
+                &::after {
+                    display: block;
+                }
+            }
+            &::after {
+                content: "";
+                height: 100%;
+                width: 50%;
+                position: absolute;
+                bottom: 0rem;
+                background-image: url(../../../public/image/shape4.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: bottom center;
+                z-index: -1;
+                @include breakpoint(lg) {
+                    width: 100%;
+                }
+            }
+            .serviceContent {
+                h4 {
+                    font-family: $ArsenicaTrial;
+                    font-size: 3rem;
+                    color: var(--text-color);
+                    font-weight: 300 !important;
+                    margin-bottom: 4rem;
+                    max-width: 38rem;
+                    @include breakpoint(xl) {
+                        font-size: 2.2rem;
+                        margin-bottom: 1rem;
+                    }
+                    @include breakpoint(lg) {
+                        font-size: 1.8rem;
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                    }
+                    .number {
+                        font-weight: 500;
+                        font-size: 10rem;
+                        margin-right: 1rem;
+                        font-family: $DreamOrphans;
+                        @media screen and (min-width: 1300px) {
+                            line-height: 0.6;
+                            font-size: 8rem;
+                        }
+                       
+                        @include breakpoint(lg) {
+                            font-size: 4rem;
+                        }
+                    }
+                    strong {
+                        margin-left: 1rem;
+                        font-weight: 600;
+                        letter-spacing: 0.1rem;
+                    }
+                    .sub-title {
+                        font-size: 1rem;
+                        font-family: $ArsenicaTrial;
+                        margin-top: 0.5rem;
+                        font-weight: 400;
+                        @include breakpoint(lg) {
+                            font-size: 0.7rem;
+                        }
+                    }
+                    .title-content {
+                        @include breakpoint(lg) {
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+                p {
+                    color: var(--text-color);
+                    font-weight: 300;
+                    text-align: left;
+                    font-size: 1rem;
+                    max-width: 36rem;
+                    margin-bottom: 2.5rem;
+                    font-family: $Baskerville;
+                    @include breakpoint(xl) {
+                        font-size: 0.8rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    &.text {
+                        max-width: 36rem;
+                        /* font-weight: 700; */
+                    }
+                }
+            }
+
+            .swiper-area {
+                padding: 0rem 8rem;
+                position: relative;
+                @include breakpoint(lg) {
+                    padding: 0rem 3rem;
+                }
+                .swiper {
+                    position: inherit;
+                    .swiper-slide {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

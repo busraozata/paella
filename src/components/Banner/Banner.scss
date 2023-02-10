@@ -1,0 +1,135 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
+
+.banner {
+    padding: 0rem 0rem 4rem 0rem;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+   
+    @media screen and (max-width:1300px) {
+        padding: 0rem 0rem 3rem 0rem;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        background-image: url(../../../public/image/shape.png);
+        height: 37rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        right: 0 !important;
+        top: -13rem;
+        background-position: right;
+        background-size: contain;
+        z-index: -1;
+        @include breakpoint(xl) {
+            height: 23rem;
+        }
+    }
+ /*    .banner-img {
+        @media screen and (min-width: 1024px) {
+            height: 55rem;
+            object-fit: cover;
+        }
+    } */
+    .content {
+        text-align: center;
+       /*  margin-top: 5rem; */
+        padding: 0rem 0rem 0rem 3rem;
+       
+        @media screen and (max-width:1300px) {
+            margin-top: 0rem;
+            padding: 1rem 0rem;
+        }
+        h5 {
+            font-family: $Ambroise;
+            text-align: left;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+        }
+        h1 {
+            color: var(--text-color);
+            font-family: $ArsenicaTrial;
+            font-size: 5.2rem !important;
+            margin-bottom: 4rem;
+            font-weight: 400;
+            text-align: left;
+            width: 100%;
+            span {
+                font-weight: 600;
+            }
+            @media screen and (max-width: 1440px) {
+                font-size: 5rem !important;
+            }
+            @media screen and (max-width: 1300px) {
+                font-size: 3.5rem !important;
+            }
+            @include breakpoint(xl) {
+                font-size: 3rem !important;
+                margin-bottom: 1rem;
+            }
+            @include breakpoint(sm) {
+                font-size: 2.5rem !important;
+            }
+        }
+       
+        p {
+            color: var(--text-color);
+            font-weight: 500;
+            text-align: left;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            font-family: $Baskerville;
+
+            @include breakpoint(xl) {
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+
+            &.text {
+                max-width: 28rem;
+                font-weight: 700;
+            }
+            &.info {
+                font-size: 0.8rem;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background-image: url(../../../public/image/shape2.png);
+                    height: 100%;
+                    width: 70%;
+                    background-repeat: no-repeat;
+                    bottom: -1.8rem;
+                    background-position: center;
+                    background-size: contain;
+                    z-index: -1;
+                }
+            }
+        }
+      
+        .list {
+            position: relative;
+            @include breakpoint(sm){
+                padding-left: 1rem !important;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                background-image: url(../../../public/image/shape2.png);
+                height: 60%;
+                width: 70%;
+                background-repeat: no-repeat;
+                bottom: -7rem;
+                background-position: center;
+                background-size: contain;
+                z-index: -1;
+            }
+        }
+    }
+}
