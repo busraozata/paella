@@ -128,7 +128,7 @@ const dummyServices = [
   }, */
   {
     id: 7,
-    title: "Data ve Acil Baskı Servisi",
+    title: "Data ve Acele Baskı Servisi",
     text: "Organizasyon başlangıcından sonuna kadar çekilen fotoğrafların dijital kopyaları standart paket hizmetimize dahil değildir Dilerseniz düğün sonrasında veya öncesinde tüm fotoğrafları dijital olarak satın alabiliyorsunuz.",
     text2:
       "Davet alanında misafirleriniz ile fotoğraf çekimleri gerçekleştiriyoruz ve termal baskı cihazlarımız ile print ediyoruz. Hazırlanan fotoğraflarınız ekip arkadaşlarımız ile misafirlerinize satışı gerçekleştirilmektedir. Alanda fotoğraf satış bedelimiz 70 TL olarak gerçekleştirilmektedir. Dilerseniz istediğiniz sayıda fotoğrafı siz satın alabilir misafirlerinize ücretsiz dağıtılmasını sağlayabilirsiniz.",
