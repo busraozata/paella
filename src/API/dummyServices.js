@@ -119,15 +119,13 @@ const dummyServices = [
     image: "/image/talkme.jpg",
     video: "https://www.youtube.com/watch?v=Xj8cVzXAo7U",
   },
-  {
+/*   {
     id: 6,
     title: "Led Ekran ve Klip Yayın Hizmeti",
-/*     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol",
- */    text2:
+   text2:
       "Led Ekran hizmetimizde davet alanınıza 12/24m2'lik ekran kurulumu gerçekleştiriyoruz, Bu ekranda Jimmy hizmetiniz olması durumunda misafirlerinize canlı olarak Jimmy görüntülerini yayınlıyoruz. Bu hizmetimizde dilerseniz bir klip yayını gerçekleştirebiliyoruz. Bu servisimizde dilerseniz fotoğraflardan oluşan bir video klip hazırlıyoruz veya düğün günü hazırlık anlarınızdan davet başlangıcına kadar olan süredeki düğün klibi hizmetinizden bir klip hazırlıyor sonrasında davetinizi dilediğiniz anında misafirlerinize Led ekran üzerinden yayınlıyoruz. Klip yayını istemeniz durumunda alanda 1 kurgu personelimiz çekilen klip görüntüleriniz hazırlayarak Led ekran üzerinden misafirlerinize organizasyon anında yayınlayabilirsiniz.",
     image: "/image/özge-erdi.jpg",
-   /*  info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut", */
-  },
+  }, */
   {
     id: 7,
     title: "Data ve Acil Baskı Servisi",

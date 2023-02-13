@@ -97,6 +97,9 @@
             position: relative;
             padding: 5rem 0rem;
             &:nth-child(2) {
+                .row{
+                    align-items: center;
+                }
                 &::before {
                     content: "";
                     background-image: url(../../../public/image/shape8.png);
