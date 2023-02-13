@@ -17,7 +17,7 @@ const dummyServices = [
     /* text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol", */
     text2:
       "Bu servisimizde hazırlıklardan başlayan ve organizasyon sonuna kadar devam eden bir hikaye fotoğraf çekimi gerçekleştiriyoruz, daha çok spontane fotoğraflardan oluşan çekimler gerçekleştiriyoruz. Hikaye fotoğrafçısı ile organizasyonunuzu evden çıkış, saç makyaj hazırlığı , bride partisi, aile çekimler ve organizasyon anlarına ait spontane fotoğraf çekimleri ile hayalinizdeki hikaye albümünü oluşturuyoruz. Bu hizmetimizde size eşlik edecek hikaye fotoğrafçısı ekstra bir ekip arkadaşımız olup davetinizde 2.fotoğrafçı olarak daha spontane karelerle organizasyonuzu hikayeleştiriyoruz. Standart paketinize ekstra olarak ekleyebileceğiniz bu hizmetiniz ile düğün gününüzü başlangıcından sonuna kadar etkileyici fotoğraflar ile zenginleştirebilirsiniz. Ayrıca bu hizmetimizde tam gün hikaye fotoğraf çekiminin yanısıra standart paketinizdeki albüm yerine daha büyük boyutlarda bir albüm ve aileleriniz için 2 adet mini albüme sahip olabilirsiniz. Örnek hikaye çekimlerimizi inceleyerek daha detaylı bilgi sahibi olabilirsiniz.",
-    image: "/image/ilkyaz-ali.jpg",
+    image: "/image/pınar-yigit.jpg",
     subStances: [
       {
         item: "Hazırlıklardan Gece Sonuna kadar hikaye fotoğraf çekimi (ortalama 12 saat)",
