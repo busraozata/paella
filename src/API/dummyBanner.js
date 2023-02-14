@@ -16,7 +16,7 @@ const dummyBanner = {
       item: "Organizasyon süresince Fotoğraf ve Aktüel Kamera Çekimi",
     },
     {
-      item: "1 adet büyük + 2 adet küçük 35 fotoğraflı Albüm Paketi",
+      item: "1 adet büyük + 2 adet küçük 30 fotoğraflı Albüm Paketi",
     },
     {
       item: "1 adet Full HD Video (Tüm düğün görüntülerinden oluşan 3-4 saatlik bir video hazırlanır.",
