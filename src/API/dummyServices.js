@@ -1,5 +1,4 @@
 const dummyServices = [
-
   {
     id: 1,
     title: "Jimmy Jib Kamera",
@@ -9,7 +8,7 @@ const dummyServices = [
     image: "/image/jimmy.jpg",
     video: "https://www.youtube.com/watch?v=PF2PcKKnMOc",
   },
- 
+
   {
     id: 2,
     title: "Düğün Hikayesi",
@@ -48,7 +47,6 @@ const dummyServices = [
       {
         image: "/image/dugun-hikayesi-first.jpg",
       },
-      
     ],
   },
 
@@ -59,8 +57,8 @@ const dummyServices = [
     /* text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol", */
     text2:
       "Düğün Klibi hizmetimizde sinematik çekim yapabilen videograf arkadaşımız sabah hazırlıklarınızdan itibaren yanınızda oluyor ve organizasyon süreciniz dahil (ortalama 12 saat) kısa kısa videolar topluyor. Sonrasında topladığımız görüntülerden 1 dk teaser klip ve 4-6 dk'lık bir klip hazırlıyoruz. Düğün klibi servisimizde Fuji veya Sony video kameralar ve gymball ile çekim gerçekleştiriyoruz ve tamamıyla diğer kameralardan bağımsız bir servistir. Organizasyon günü sabah hazırlıklardan gece sonuna kadar klip çekimini gerçekleştirdikten sonra kurgu ekibimiz davetiniz sonrası isteğinize uygun teaser ve klibinizi hazırlayarak dijital ortamda size ulaştırıyoruz. Bu servisimiz ile klibinize evden çıkışınızla başlayıp, saç-makyaj hazırlığınız, bride partiniz ve organizasyondaki tüm özel anlarınıza ait klip çekimi gerçekleştirebiliyoruz. Kliplerimizi izleyerek daha detaylı bilgi sahibi olabilir veya youtube kanalımızdan farklı alternatifleri inceleyebilirsiniz.",
-    image: "/image/hanze-chris.jpg",
-    video: "hhttps://www.youtube.com/watch?v=c7Kjge_1jrA",
+    image: "/image/muge-berkay.jpg",
+    video: "https://www.youtube.com/watch?v=jUcVQ4-oum4",
     subStances: [
       {
         item: "Gün boyu sinematik klip çekimi",
@@ -93,13 +91,17 @@ const dummyServices = [
       },
       {
         id: 4,
+        image: "/image/hanze-chris.jpg",
+        video: "https://www.youtube.com/watch?v=c7Kjge_1jrA",
+      },
+      /*    {
+        id: 4,
         image: "/image/hikaye4.jpg",
         video: "https://www.youtube.com/watch?v=Zi0W-Fsrprg",
-      },
-    
+      }, */
     ],
   },
-  
+
   {
     id: 4,
     title: "Drone Çekimi",
@@ -113,13 +115,13 @@ const dummyServices = [
     id: 5,
     title: "Talk Me",
     smallTitle: "VİDEOBOOTH",
-/*     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol",
- */    text2:
+    /*     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dol",
+     */ text2:
       "Tüm organizasyon sürecinizde aktif kalacak bu hizmetimiz ile siz organizasyonunuzun tadını çıkartırken sizin için tüm misafirlerinizden sizinle ilgili dilek ve anılarınızı kayıt altına alıyoruz. Talk Me konuşma kabinimiz davet alanında misafirlerinizin kolayca ulaşabileceği bir alana kurulumunu gerçekleştiriyoruz. Konuşma kabini başında sürekli olarak misafirlerinizi yönlendirecek ekip arkadaşımız ile tüm misafirlerinizden sizinle ilgili dilek ve anılarını kayıt altına alıyoruz. Bu anların tamamından hazırladığımız 1 adet uzun montaj ve en eğlenceli görüntülerden oluşan bir kısa anı klibi hazırlıyoruz.",
     image: "/image/talkme.jpg",
     video: "https://www.youtube.com/watch?v=Xj8cVzXAo7U",
   },
-/*   {
+  /*   {
     id: 6,
     title: "Led Ekran ve Klip Yayın Hizmeti",
    text2:
@@ -133,7 +135,7 @@ const dummyServices = [
     text2:
       "Davet alanında misafirleriniz ile fotoğraf çekimleri gerçekleştiriyoruz ve termal baskı cihazlarımız ile print ediyoruz. Hazırlanan fotoğraflarınız ekip arkadaşlarımız ile misafirlerinize satışı gerçekleştirilmektedir. Alanda fotoğraf satış bedelimiz 70 TL olarak gerçekleştirilmektedir. Dilerseniz istediğiniz sayıda fotoğrafı siz satın alabilir misafirlerinize ücretsiz dağıtılmasını sağlayabilirsiniz.",
     image: "/image/service-foto.jpg",
-   /*  info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut", */
+    /*  info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut", */
   },
 ];
 export default dummyServices;
