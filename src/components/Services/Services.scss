@@ -344,6 +344,9 @@
                 @include breakpoint(lg) {
                     padding: 0rem 3rem;
                 }
+                img{
+                    height: 11rem;
+                }
                 .play-btn{
                     width: 4rem;
                     height: 4rem;
