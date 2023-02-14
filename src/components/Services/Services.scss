@@ -344,6 +344,10 @@
                 @include breakpoint(lg) {
                     padding: 0rem 3rem;
                 }
+                .play-btn{
+                    width: 4rem;
+                    height: 4rem;
+                }
                 .swiper {
                     position: inherit;
                     .swiper-slide {
